@@ -1,0 +1,177 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Futuristic and Planetary theme */
+body {
+    background-color: #0f0f1f; /* Dark space-like background */
+    color: #dcdcdc;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    cursor: url('images/Three-Eyed Aliens 3D--pointer--SweezyCursors.cur'), auto;
+}
+
+
+/* Header style */
+header {
+    background: linear-gradient(45deg, #0a0a29, #1b1b3f);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 18px;
+}
+
+/* About section */
+#about {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #dcdcdc;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Projects and Skills sections */
+section h2 {
+    text-align: left;
+    font-size: 28px;
+    padding-left: 20px;
+    color: #dcdcdc;
+}
+
+.project, .skill {
+    padding: 20px;
+    background-color: #1b1b3f;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3, .skill h3 {
+    font-size: 24px;
+    color: #dcdcdc;
+}
+
+/* Progress bar style */
+.progress-bar {
+    background-color: #333;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #5656d6; /* Purpleish color to give a modern feel */
+    height: 100%;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* Call-to-Action button */
+#contact {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #0a0a29;
+}
+
+#email-btn {
+    background-color: #3f3f99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#email-btn:hover {
+    background-color: #5656d6;
+}
+
+/* Saturn Cursor */
+.saturn-cursor {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-size: contain;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+/* Footer */
+footer {
+    background-color: #0a0a29;
+    color: #dcdcdc;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: #dcdcdc;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #about {
+        padding: 40px 10px;
+    }
+
+    .about-content img {
+        width: 100px;
+        height: 100px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .project, .skill {
+        padding: 10px;
+    }
+}
