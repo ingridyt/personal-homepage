@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingridy's Professional Homepage</title>
+    <!-- Include the icon font library, such as Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Ingridy Takada</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/photo.jpg" alt="Ingridy's Picture">
+            <p>
+                👋 Hi there! I'm Ingridy, a psychologist and technology enthusiast. 
+                <p>I love exploring new tech and bringing ideas to life. When I'm not coding, you can find me reading or enjoying a good book.📚  </p> 
+                <p>In my free time, I also enjoy gazing through my telescope, marveling at the vastness of the universe. 🌌 And yes, 👽 aliens intrigue me too! </p> 
+                <p>Let's connect on <a href="https://www.linkedin.com/in/ingridy-takada/" target="_blank">LinkedIn</a> and explore the exciting fusion of psychology and technology! 🚀</p> 
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AI HR Chatbot</h3>
+            <p>Developed an intelligent HR chatbot leveraging OpenAI's GPT-4 model. This bot assists the HR team by providing quick, accurate responses to employees' queries, enhancing information retrieval efficiency within the company. The chatbot can understand and generate human-like responses to a wide range of HR-related questions.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>Python</h3>
+            <p>Proficient in writing Python code.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;">60%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Skilled in styling web pages with CSS and creating responsive layouts.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Familiar with JavaScript and building interactive features for websites.</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>AI Prompting</h3>
+            <p>Proficient in writing prompts for AI</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;">90%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Get in Touch</h2>
+    <a href="mailto:friming@hotmail.com" id="email-btn">📧 Contact Me</a>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ingridy-takada/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024, Ingridy Takada. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript -->
+    <script src="scripts.js"></script>
+
+    <!-- Saturn cursor effect -->
+    <div class="saturn-cursor"></div>
+
+    <script>
+        // Add a Saturn cursor effect
+        document.addEventListener('mousemove', function(e) {
+            const cursor = document.querySelector('.saturn-cursor');
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.top = e.pageY + 'px';
+        });
+    </script>
+</body>
+</html>
